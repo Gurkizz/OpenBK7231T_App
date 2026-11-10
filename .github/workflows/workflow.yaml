@@ -241,7 +241,7 @@ jobs:
         exclude:
           - platform: OpenESP32C2
             variant: 2M
-            version: v5.5.2
+            version: v5.5.2.
             sdk: esp-idf
           - platform: OpenESP32C3
             variant: 2M
@@ -283,7 +283,6 @@ jobs:
             variant: 4M
             version: v5.5.2
             sdk: esp-idf
-
           - platform: OpenESP8266
             variant: default
             version: v3.4
