@@ -239,6 +239,9 @@ jobs:
       fail-fast: false
       matrix:
         include:
+        
+        exclude:
+
           - platform: OpenESP32C2
             variant: 2M
             version: v5.5.2
@@ -247,11 +250,10 @@ jobs:
             variant: 2M
             version: v5.5.2
             sdk: esp-idf
-
           - platform: OpenESP32
             variant: 4M
             version: v5.5.2
-            sdk: esp-idf
+          - sdk: esp-idf
           - platform: OpenESP32
             variant: xiaomiCompact4
             version: v5.5.2
