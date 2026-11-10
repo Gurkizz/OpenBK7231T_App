@@ -238,10 +238,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        include:
-        
         exclude:
-
           - platform: OpenESP32C2
             variant: 2M
             version: v5.5.2
